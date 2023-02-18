@@ -1,0 +1,221 @@
+/* COLOR PALATE
+    #F7FFF7 - Mint Cream (Near to White)
+    #343434 - Jet (Grayish Black)
+    #2F3061 - Space Cadet (Near Deep Blue)
+    #FFE66D - Yellow Crayota (Pale Yellow)
+    #A1C6D7 - Dark Sky Blie (Whitish Blue)
+    #2274A5 - Star Command Blue
+    #011C27 - Rich Black FOGRA
+    #CBF7ED - Aero Blue
+    #091E69 - Deep Blue Shade
+*/
+
+/* -------------------- Global Styles -------------------- */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400px;
+    margin: 0;
+}
+
+.content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.itemDetails h3 + p {
+    font-style: italic;
+}
+
+.itemDetails h3 ~ p {
+    margin: 0;
+}
+
+.divider > section {
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+
+.divider > section:last-of-type {
+    border-bottom: none;
+}
+
+/* ------------------------ Profile ---------------------- */
+header {
+    color: #F7FFF7;
+    background: #091E69;
+}
+
+.content-wrap > div {
+    text-align: left;
+}
+
+/* ---------------------- Projects ----------------------- */
+.project {
+    background: #CBF7ED;
+}
+
+.projectItem {
+    overflow: hidden;
+}
+
+.project a {
+    color: #2274A5;
+    padding: 20px 0;
+}
+
+.projectItem h3 {
+    margin-top: 0;
+}
+
+.project .btn {
+    color: #F7FFF7;
+    background: #2F3061;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    display: inline-block;
+}
+.project .btn:hover {
+    background: rgba(47, 48, 97, 80%);
+}
+
+/* ------------------- Work Experience ------------------- */
+.workEx {
+    background-image: url(../images/Project_5_BackgroundImg.jpg);
+    background-size: cover;
+    background-position: top left;
+    color: #F7FFF7;
+}
+
+.workEx a {
+    color: #95E06C;
+    padding: 20px 0;
+}
+
+/* ---------------------- Education ---------------------- */
+.education {
+    background-image: url(../images/Project_4_BackgroundImg-.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 160px;
+    color: #011C27;
+    text-align: right;
+}
+
+.education p {
+    width: 95%;
+    padding-left: 35%;
+}
+
+/* -------------------- Contact Info --------------------- */
+footer {
+    color: #F7FFF7;
+    background: #011C27;
+}
+
+.contactList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contactList a {
+    color: #95E06C;
+    padding: 20px;
+    display: inline-block;
+}
+
+/* --------------------- Responsive ---------------------- */
+@media screen and (min-width: 750px) {
+
+    img {
+        width: 300px;
+    }
+    
+    header, footer {
+        text-align: center;
+    }
+
+    .jobItem {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+    }
+
+    .contactList {
+        display: flex;
+        justify-content: center;
+    }
+
+    .projectItem img {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .projectItem iframe {
+        float: left;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 749px) {
+
+    img {
+        width: 500px;
+    }
+
+    iframe {
+        width: 500px;
+        height: 250px;
+    }
+    
+    h1 {
+        font-size: 75px;
+        line-height: 0.9;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        line-height: 1;
+    }
+
+    .contactList a {
+        padding: 5px;
+    }
+}
+
+/* ------------------------------------------------------- */
