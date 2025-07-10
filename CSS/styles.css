@@ -57,6 +57,10 @@ h1, h2 {
     padding: 60px 0;
 }
 
+.profileDetails {
+	color: #dac0b5;
+}
+
 .itemDetails h3 + p {
     font-style: italic;
 }
