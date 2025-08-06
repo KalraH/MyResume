@@ -120,7 +120,7 @@ header {
 
 /* ------------------- Work Experience ------------------- */
 .workEx {
-    background-image: url(../images/Project_5_BackgroundImg.jpg);
+    background-image: url(../images/workExBackgroundImg.jpg);
     background-size: cover;
     background-position: top left;
     color: #F7FFF7;
@@ -133,7 +133,7 @@ header {
 
 /* ---------------------- Education ---------------------- */
 .education {
-    background-image: url(../images/Project_4_BackgroundImg-.jpg);
+    background-image: url(../images/educationBackgroundImg.jpg);
     background-size: cover;
     background-position: bottom;
     padding-bottom: 160px;
